@@ -1,0 +1,55 @@
+.new-todo-window {
+  width: 72%;
+  max-width: 450px;
+  height: fit-content;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 24px 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0px 0px 8px #999;
+}
+
+.new-todo--text {
+  height: 48px;
+  border: none;
+  background-color: white;
+  text-align: center;
+  font-size: 20px;
+  outline: none;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  font-weight: bold;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 16px;
+}
+
+.new-todo--button {
+  background-color: white;
+  max-width: fit-content;
+  border: none;
+  border-radius: 12px;
+  transition: .2s;
+  display: flex;
+  transform-origin: center;
+  -webkit-transform-origin: center;
+}
+
+.new-todo--button:hover {
+  transform: scale(1.1);
+}
+
+.new-todo--button:focus {
+  transform: scale(1.1);
+  outline: none;
+}
+
+.accept-icon,
+.cancel-icon {
+  height: 40px;
+}
